@@ -1,0 +1,86 @@
+ {
+  box-sizing: border-box;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: Georgia sans-serif;
+	text-align: center;
+	color: black;
+	margin-bottom: 20px;
+}
+
+p {
+	padding: 15px 5px 0px 5px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	position: relative;
+}
+
+.section { 
+	background-color: pink;
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 30px;
+	width: 150px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#C1 {
+	background-color: yellow;
+	color: rgb(0, 0, 0);
+}
+#B2 {
+	background-color: green;
+	color: black;
+}
+#S3 {
+	background-color: red;
+	color: rgb(0, 0, 0);
+}
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
